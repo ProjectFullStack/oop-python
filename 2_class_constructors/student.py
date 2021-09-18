@@ -23,13 +23,13 @@ class Student:
         self.courses = courses
 
 
-joe = Student('Joe', 18, 8429, ["MATH401", "COMP505"])  # <__main__.Student object at 0x00000230DA8BE130>
+joe = Student('Joe', 18, 8429, ["MATH401", "COMP505"])
 print(joe.name)
 print(joe.age)
 print(joe.student_id)
 print(joe.courses)
 
-jane = Student('Jane', 20, 2931, ["HIST420", "COMP505"])  # <__main__.Student object at 0x00000230DAA1A040>
+jane = Student('Jane', 20, 2931, ["HIST420", "COMP505"])
 print(jane.name)
 print(jane.age)
 print(jane.student_id)
